@@ -36,7 +36,7 @@
       <stop
          id="stop5889"
          offset="1"
-         style="stop-color:#e6e6e6;stop-opacity:1" />
+         style="stop-color:#c6c6c6;stop-opacity:1" />
     </linearGradient>
     <linearGradient
        gradientUnits="userSpaceOnUse"
@@ -94,6 +94,8 @@
      style="display:inline;opacity:0.7;-webkit-transition: opacity .5s;-moz-transition: opacity .5s;-ms-transition: opacity .5s;-o-transition: opacity .5s;transition: opacity .5s"
      onmouseout="this.style.opacity = '0.7'"
      onmouseover="this.style.opacity = '1'"
+     onmousedown="getElementById('arrow').setAttribute('transform','translate(1.5,0)')"
+     onmouseup="getElementById('arrow').setAttribute('transform','translate(0,0)')"
      id="layer2">
     <circle
        r="12.347186"
